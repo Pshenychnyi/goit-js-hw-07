@@ -1,0 +1,22 @@
+.image_gl > img {
+    display: block;
+    height: 50%;
+    width: 50%;
+    padding: 10px;
+    background-color: rgba(96, 214, 208);
+    /*border: 2px solid rgba(96, 214, 208);*/
+    flex: 1 1 auto;
+
+}
+
+#validation-input {
+    border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+    border-color: #4caf50;
+}
+
+#validation-input.invalid {
+    border-color: #f44336;
+}
